@@ -4,16 +4,23 @@
   "description": "Network All In One",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QuentinV/naio.git"
   },
   "author": "Quentin Vanhauteghem (Nightspark)",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/QuentinV/naio/issues"
   },
-  "homepage": "https://github.com/QuentinV/naio#readme"
+  "homepage": "https://github.com/QuentinV/naio#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "node-forge": "^0.8.5"
+  },
+  "devDependencies": {
+    "electron": "^5.0.6"
+  }
 }
