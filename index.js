@@ -44,6 +44,9 @@ app.on( 'activate', () => {
     }
 } );
 
+require( './main' );
+
+// Update UI
 const { networkInterfacesUp } = require( './sources/networkInterfaces' );
 setInterval( () => {
     win.webContents.send( 'networkInterfaces', networkInterfacesUp() );
