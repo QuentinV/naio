@@ -1,0 +1,1 @@
+certutil -addstore -user -f "Root" D:\IDE\WorkspaceIntelliJ\naio\.http-mitm-proxy\certs\ca.pem
